@@ -7,13 +7,127 @@
 </head>
 <body>
     <header>
-
+        <!-- header content goes here -->
+         <nav>
+            <!-- unordered list with 4 items -->
+             <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="tables.html" target="_self">Tables</a></li>
+                <li><a href="forms.html" target="_self">Forms</a></li>
+                <li><a href="media.html" target="_self">Media</a></li>
+             </ul>
+         </nav>
+         <h1>Tables</h1>
     </header>
     <main>
-
+        <!-- Div container for building tables with fixed size -->
+         <div id="table1">
+            <!-- table with fixed size -->
+             <table style="width: 1000px;">
+                <caption>Table with absolute width values</caption>
+                <!-- table header -->
+                 <thead>
+                    <!-- table row for the header -->
+                     <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                     </tr>
+                 </thead>
+                 <!-- table body -->
+                  <tbody>
+                    <!-- table row for the body -->
+                     <tr>
+                        <!-- table data cell -->
+                         <td>Data 1.1</td>
+                         <td>Data 1.2</td>
+                     </tr>
+                     <tr>
+                        <td>Data 2.1</td>
+                        <td>Data 2.2</td>
+                     </tr>
+                     <tr>
+                        <td>Data 3.1</td>
+                        <td>Data 3.2</td>
+                     </tr>
+                  </tbody>
+             </table>
+         </div>
+         <hr>
+         <!-- Div container for building responsive tables -->
+         <div id="table2">
+            <!-- responsive table that adjust its width based on its parent container's width -->
+             <table style="width: 100%;">
+                <caption>Responsive table using relative width values</caption>
+                <!-- table header -->
+                 <thead>
+                    <!-- table row for the header -->
+                     <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                     </tr>
+                 </thead>
+                 <!-- table body -->
+                  <tbody>
+                    <!-- table row for the body -->
+                     <tr>
+                        <!-- table data cell -->
+                         <td>Data 1.1</td>
+                         <td>Data 1.2</td>
+                     </tr>
+                     <tr>
+                        <td>Data 2.1</td>
+                        <td>Data 2.2</td>
+                     </tr>
+                     <tr>
+                        <td>Data 3.1</td>
+                        <td>Data 3.2</td>
+                     </tr>
+                  </tbody>
+             </table>
+         </div>
+         <hr>
+         <!-- Div container for building responsive tables with merged cells -->
+         <div id="table3">
+            <!-- responsive table with merged cells -->
+             <table style="width: 100%;">
+                <caption>Responsive table with merged cells</caption>
+                <!-- table header -->
+                 <thead>
+                    <!-- table row for the header -->
+                     <tr>
+                        <th rowspan="2">Header 1</th> <!-- header cell that spans two rows vertically -->
+                        <th colspan="2">Header 2</th> <!-- header cell that spans two columns horizontally -->
+                     </tr>
+                     <tr>
+                        <th>Sub-header 1</th>
+                        <th>Sub header 2</th>
+                     </tr>
+                 </thead>
+                 <!-- table body -->
+                  <tbody>
+                    <!-- table row for the body -->
+                     <tr>
+                        <!-- table data cell -->
+                         <td>Data 1.1</td>
+                         <td>Data 1.2</td>
+                         <td>Data 1.3</td>
+                     </tr>
+                     <tr>
+                        <td>Data 2.1</td>
+                        <td>Data 2.2</td>
+                        <td>Data 2.3</td>
+                     </tr>
+                     <tr>
+                        <td>Data 3.1</td>
+                        <td>Data 3.2</td>
+                        <td>Data 3.3</td>
+                     </tr>
+                  </tbody>
+             </table>
+         </div>
     </main>
     <footer>
-        
+        <p>&copy; Copyright 2024 Manuel Aguilar COMP001A.LectureActivity4/<a href="https://github.com/manuelaguilar5219" target="_self">https://github.com/manuelaguilar5219</a></p>
     </footer>
     
 </body>
